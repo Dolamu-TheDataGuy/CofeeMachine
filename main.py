@@ -46,7 +46,7 @@ def is_resource_sufficient(order_ingredients):
     return True
 
 
-# Function to process coin
+# Function to process coin and sum different coins to get the total
 def process_coins():
     """ Returns the total calculated from coins inserted"""
     print("Please insert coins.")
