@@ -70,7 +70,7 @@ def is_transaction_successful(money_received, drink_cost):
         print("Sorry that's not enough money. Money Refunded.")
         return False
 
-
+# Function to update the resources on the coffee machine
 def make_coffee(drink_name, order_ingredients):
     """Deduct the required ingredients from the resources."""
     for item in order_ingredients:
